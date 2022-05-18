@@ -1,0 +1,29 @@
+{
+  "name": "button",
+  "version": "0.0.1",
+  "description": "example button",
+  "keywords": [
+    "example"
+  ],
+  "author": "jwalke18 <jwalke18@jaguarlandrover.com>",
+  "homepage": "https://github.com/odyssey-dev/Odyssey-Component-library#readme",
+  "license": "ISC",
+  "main": "lib/test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odyssey-dev/Odyssey-Component-library.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/odyssey-dev/Odyssey-Component-library/issues"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "name": "svelte-component-library",
+  "name": "odyssey-component-library",
   "version": "0.0.1",
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "type": "module",
   "scripts": {
@@ -32,10 +34,12 @@
     "@sveltejs/kit": "next",
     "babel-loader": "^8.2.5",
     "chromatic": "^6.5.4",
+    "cz-lerna-changelog": "^2.0.3",
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-storybook": "^0.5.11",
     "eslint-plugin-svelte3": "^4.0.0",
+    "lerna": "^3.22.1",
     "playwright": "^1.21.1",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
@@ -44,5 +48,13 @@
     "svelte-loader": "^3.1.2",
     "svelte2tsx": "^0.5.9",
     "typescript": "^4.6.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "dependencies": {
+    "lerna-wizard": "^1.1.1"
   }
 }
