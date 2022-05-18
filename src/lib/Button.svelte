@@ -35,7 +35,7 @@
 }
 .sveltio-button--primary {
     color: #1b116e;
-    background-color: #6bedb5;
+    background-color: #69c3ec;
 }
 .sveltio-button--secondary {
     color: #ffffff;
@@ -57,29 +57,29 @@
 
 .sveltio-button--primary :hover {
     color: #1b116e;
-    background-color: #55bd90;
+    background-color: #69c3ec;
 }
 
 .sveltio-button--primary :active {
     color: #1b116e;
-    background-color: #55bd90;
+    background-color: #69c3ec;
     border: solid 2px #1b116e;
 }
 
 .sveltio-button--primary :disabled {
     color: #1b116e;
     opacity: 0.5;
-    background-color: #6bedb5;
+    background-color: #69c3ec;
 }
 
 .sveltio-button--secondary :hover {
     color: #1b116e;
-    background-color: #55bd90;
+    background-color: #69c3ec;
 }
 
 .sveltio-button--secondary :active {
     color: #1b116e;
-    background-color: #6bedb5;
+    background-color: #69c3ec;
     border: solid 2px #1b116e;
 }
 
