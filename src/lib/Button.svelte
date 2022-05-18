@@ -28,7 +28,7 @@
     font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     border: 0;
-    border-radius: 6px;
+    border-radius: 12px;
     cursor: pointer;
     display: inline-block;
     line-height: 1;
