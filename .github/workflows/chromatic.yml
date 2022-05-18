@@ -25,7 +25,7 @@ jobs:
         run: yarn
 
         # 👇 Checks if the branch is not main and runs Chromatic
-      - name: Publish to Chromatic
+      - name: Publish to Chromatic (branch)
         if: github.ref != 'refs/heads/main'
         uses: chromaui/action@v1
         # Required options for the Chromatic GitHub Action
@@ -34,7 +34,7 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
         # 👇 Checks if the branch is main and accepts all changes in Chromatic
-      - name: Publish to Chromatic and auto accept changes
+      - name: Publish to Chromatic (main branch)
         if: github.ref == 'refs/heads/main'
         uses: chromaui/action@v1
         # Required options for the Chromatic GitHub Action

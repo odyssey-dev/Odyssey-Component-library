@@ -1,6 +1,9 @@
 {
   "name": "svelte-component-library",
   "version": "0.0.1",
+  "release": {
+    "branches": ["main"]
+  },
   "type": "module",
   "scripts": {
     "dev": "svelte-kit dev",

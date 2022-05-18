@@ -1,0 +1,24 @@
+# Workflow name
+name: 'Semantic Release'
+
+# Event for the workflow
+on:
+  push:
+    branches:
+      - 'main'
+    tags-ignore:
+      - '^v[0-9]+.[0-9]+.[0-9]+$'
+
+# List of jobs
+jobs:
+  deployment:
+    # Operating System
+    runs-on: ubuntu-latest
+    # Job steps
+    steps:
+
+      - uses: actions/checkout@v2
+
+        # 👇 Checks if the branch is not main and runs Chromatic
+      - name: Publish Release
+        run: npx -p @semantic-release/commit-analyzer -p @semantic-release/release-notes-generator -p @semantic-release/changelog -p @semantic-release/github -p @semantic-release/git -p @semantic-release/npm -p semantic-release -c semantic-release --debug
