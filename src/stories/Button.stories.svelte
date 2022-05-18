@@ -46,7 +46,6 @@
   }}
 />
 
-
 <Story
   name="Medium"
   args={{
